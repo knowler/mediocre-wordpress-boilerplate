@@ -1,0 +1,29 @@
+{
+  "name": "knowler/mediocre-wordpress-boilerplate",
+  "type": "project",
+  "license": "MIT",
+  "description": "Do yourself a favour and use Bedrock instead.",
+  "homepage": "https://github.com/knowler/mediocre-wordpress-boilerplate",
+  "authors": [
+    {
+      "name": "Nathan Knowler",
+      "homepage": "https://github.com/knowler"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "extra": {
+    "installer-paths": {
+      "src/wp-content/themes/{$name}/": ["type:wordpress-theme"],
+      "src/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "src/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"]
+    }
+  },
+  "scripts": {
+    "install:wp": ["./bin/install-wp.sh"]
+  }
+}
