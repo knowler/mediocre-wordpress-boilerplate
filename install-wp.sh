@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 
-wordpress_version="5.1.1"
-install_path="src"
+version="5.1.1"
 
 wp core download \
-  --version=$wordpress_version \
-  --path=$install_path \
+  --version=$version \
+  --path=src \
   --force
