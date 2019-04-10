@@ -11,12 +11,12 @@ repo is for demonstration purposes. In reality, I’m using
 
 ## Setup
 
-Set the WordPress version in `install_wp.sh`.
+Set the WordPress version in `install-wp.sh`.
 
 ## Install
 
 ```shell
-$ ./install_wp.sh
+$ ./install-wp.sh
 ```
 
 ## Continued Usage
