@@ -1,4 +1,4 @@
-# A Composer-less WordPress project boilerplate
+# Mediocre WordPress Boilerplate
 
 An attempt to have sane version control for a WordPress project
 without using Composer or a separate install directory. This
